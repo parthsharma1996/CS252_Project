@@ -24,7 +24,7 @@ github_username:  CawnportChronicles
 
 # Build settings
 sass:
-        sass_dir:_sass
+        sass_dir: _sass
 markdown: kramdown
 theme: minima
 include: ['_pages']
