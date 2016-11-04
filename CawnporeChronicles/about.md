@@ -4,12 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Cawnpore Chronicles is  IIT Kanpur's satirical newspaper
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+*we are awesome
+*we are epic
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Stay tuned for more.
+
+*Our creations:* 
+* [Humans against OARS](https://www.facebook.com/profile.php?id=1871353723098043&fref=ts)
+* [I'm in love with the Coco](https://www.facebook.com/profile.php?id=392906964251693&fref=ts)
+
+*Our recommendations:*
+ 
+* [The Troll Football](https://www.facebook.com/profile.php?id=1535173933442005&fref=ts)
+* [Humans of Jharsa](https://www.facebook.com/Humans-of-Jharsa-456942101122410/?fref=ts)
