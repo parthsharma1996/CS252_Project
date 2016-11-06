@@ -4,7 +4,15 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 <time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
-
+<!-- Floating Share Buttons Container taken from https://webdesignerhut.com/css-social-sharing-buttons-->
+<div class="socialfloat">
+    <!-- Facebook Share Button -->
+    <a class="fbtn share facebook" href="#"><i class="fa fa-facebook"></i></a>
+    <!-- Google Plus Share Button -->
+    <a class="fbtn share gplus" href="#"><i class="fa fa-google-plus"></i></a>
+    <!-- Twitter Share Button -->
+    <a class="fbtn share twitter" href="#"><i class="fa fa-twitter"></i></a>
+</div>
 {{ content }}
  <div id="disqus_thread"></div>
     <script>
