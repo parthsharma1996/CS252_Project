@@ -31,7 +31,6 @@ include: ['_pages']
 input: GFM
 gems:
   - jekyll-feed
-  - jekyll-font-awesome
 exclude:
   - Gemfile
   - Gemfile.lock
