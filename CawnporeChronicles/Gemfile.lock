@@ -47,7 +47,11 @@ DEPENDENCIES
   minima (~> 2.0)
 
 RUBY VERSION
+<<<<<<< HEAD
    ruby 2.1.2p95
+=======
+   ruby 2.3.0p0
+>>>>>>> nishit
 
 BUNDLED WITH
    1.13.6
