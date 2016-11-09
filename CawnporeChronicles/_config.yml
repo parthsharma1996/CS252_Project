@@ -36,7 +36,6 @@ include: ['_pages']
 input: GFM
 gems:
   - jekyll-feed
-  - jekyll-tagging
 exclude:
   - Gemfile
   - Gemfile.lock
