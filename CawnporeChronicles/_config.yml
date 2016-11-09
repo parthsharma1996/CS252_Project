@@ -22,6 +22,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: CawnporeChronicles
 github_username:  CawnportChronicles
 avatar: /images/peacock.png
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
+
 # Build settings
 sass:
         sass_dir: _sass
@@ -31,6 +36,7 @@ include: ['_pages']
 input: GFM
 gems:
   - jekyll-feed
+  - jekyll-tagging
 exclude:
   - Gemfile
   - Gemfile.lock
