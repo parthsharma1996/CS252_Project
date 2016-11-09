@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "1996 Antaragni winner finally receives prize money"
-date:   2016-10-19 15:12:40 +0530
+date:   2016-10-29 15:11:04 +0530
 categories: Antaragni
 tags: festival antaragni money sample	
 ---
