@@ -31,6 +31,9 @@ include: ['_pages']
 input: GFM
 gems:
   - jekyll-feed
+  - algoliasearch-jekyll
 exclude:
   - Gemfile
   - Gemfile.lock
+algolia:
+    application_id: 
