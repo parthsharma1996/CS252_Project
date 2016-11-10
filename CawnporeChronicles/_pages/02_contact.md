@@ -12,21 +12,17 @@ In case you are too shy to comment with Disqus below each post, go ahead and fil
 
 <form action="https://formspree.io/gyaneshg1@gmail.com"
       method="POST">
-    Name: <input type="text" name="name"> <br>
-    Email: <input type="email" name="_replyto"><br>
-    Remarks: <textarea name="Text1" cols="40" rows="5"></textarea>
+    <input type="text" name="name" placeholder ="Name"> <br>
+    <input type="email" name="_replyto" placeholder ="Email"><br>
+    <textarea name="Text1" cols="40" rows="5" placeholder="Remarks" ></textarea>
     
     <input type="submit" value="Send">
 </form>
 
-<b> Creators: </b>
+<b>Meet the Creators: </b>
 
-[Nishit Asnani](https://github.com/asnani04)
-[Parth Sharma](https://github.com/parthsharma1996)
-[Gyanesh Gupta](https://github.com/gyaneshg96)
-
-<img src = "{{site.url}}/_pages/Nishit.jpg" style="width:300px;"> <br> Nishit Asnani <br> <br> <br>
-<img src = "{{site.url}}/_pages/Gyan.jpg" style="width:300px;"> <br> Gyanesh Gupta <br> <br> <br>
-<img src = "{{site.url}}/_pages/Parth.jpg" style="width:300px;"> 
+<img src = "{{site.url}}/_pages/Nishit.jpg" style="width:300px;"> <br> [Nishit Asnani](https://github.com/asnani04) <br> <br> <br>
+<img src = "{{site.url}}/_pages/Gyan.jpg" style="width:300px;"> <br> [Nishit Asnani](https://github.com/asnani04) <br> <br> <br>
+<img src = "{{site.url}}/_pages/Parth.jpg" style="width:300px;"> [Gyanesh]
 <!--</img> -->
 
