@@ -36,6 +36,11 @@ a:hover {
 	color: $link-hover-color;
 	text-decoration: underline;
 }
+.tag {
+	width:150px; 
+	border:2px solid gray;
+
+}
 header:header1 {
 	justify-content: center;
 	align-items: center;
