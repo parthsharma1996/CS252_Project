@@ -16,6 +16,7 @@
 
 
 <body>
+
 	<aside>
 	<div class="container">
 		<nav>
@@ -25,8 +26,8 @@
 				  
 				<li><a href="/contact/">Contact</a></li>
 				  
-				<li><a href="/about/">About</a></li>
-				             
+				<li><a href="/">Home</a></li>
+				               
 				<li><a href="/blog">Blog</a></li>
 			</ul>
 			</li>
@@ -36,10 +37,18 @@
 </aside>
 
 <header>
-	<h1><a href="">Cawnpore Chronicles</a></h1>
+    <a href="" class="avatar"><img src="/images/peacock.png"></a>
+	<h1><a href="http://localhost:4000">Cawnpore Chronicles</a></h1>
 </header>
 
 	<main>
+    <div class="search">
+	<form action="/search.html" method="get">
+		<label for="search_box">Search</label>
+		<input type="text" id="search_box" name="query">
+		<input type="submit" value="search">
+	</form>
+    </div>
 		<article>
 			<div class="home">
 
@@ -51,10 +60,34 @@
   <ul class="post-list">
     
       <li>
+        <span class="post-meta">Nov 4, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/jekyll/update/2016/11/04/OARS-shutdown.html">OARS vulnerabilities exposed</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Nov 4, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/jekyll/update/2016/11/04/OARS-shutdown.html">OARS vulnerabilities exposed</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Oct 29, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/antaragni/2016/10/29/antaragni-money-sample2.html">1996 Antaragni winner finally receives prize money</a>
+        </h2>
+      </li>
+    
+      <li>
         <span class="post-meta">Oct 19, 2016</span>
 
         <h2>
-          <a class="post-link" href="/jekyll/update/2016/10/19/antaragni-money.html">1997 Antaragni winner finally receives prize money</a>
+          <a class="post-link" href="/antaragni/2016/10/19/antaragni-money.html">1997 Antaragni winner finally receives prize money</a>
         </h2>
       </li>
     
@@ -65,14 +98,9 @@
 </div>
 
 		</article>
-		
-         
 	<footer>
 <p>By <a href="http://cawnporechronicles.com">Cawnpore Chronicles</p>
 
-		<noscript>Please enable JavaScript to view the <a 
-href="https://disqus.com/?ref_noscript">comments powered by 
-Disqus.</a></noscript>
 
 	</main>
 </body>
