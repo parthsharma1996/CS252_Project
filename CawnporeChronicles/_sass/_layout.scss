@@ -36,8 +36,9 @@ a:hover {
 	color: $link-hover-color;
 	text-decoration: underline;
 }
-div:tags {
-	
+.tag {
+	width:150px; 
+	border:2px solid gray;
 
 }
 header:header1 {
