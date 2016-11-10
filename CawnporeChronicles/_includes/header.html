@@ -6,8 +6,11 @@
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
 				<li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
-			</ul>
-			</li>
+                <li>
+		        <form action="/search.html" method="get"><input type="text" id="search_box" name="query">
+		        <input class="btn search-btn" type="submit" value="search">
+	            </form>
+                </li>
 			</ul>
 		</nav>
 	</div>

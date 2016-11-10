@@ -3,22 +3,28 @@
 {% include head.html %}
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-	{% include header.html %}
-	<main>
-    <div class="search">
-	<form action="/search.html" method="get">
-		<label for="search_box">Search</label>
-		<input type="text" id="search_box" name="query">
-		<input type="submit" value="search">
-	</form>
-    </div>
-		<article>
-			{{ content }}
-		</article>
-	{% include footer.html %}
+    {% include header.html %}
+    <main>
 
-	</main>
+        <article>
+            {{ content }}
+        </article>
+    {% include footer.html %}
+
+    </main>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
 </body>
 
 </html>
+

@@ -16,8 +16,16 @@
 
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-	<aside>
+    <aside>
 	<div class="container">
 		<nav>
 			<ul>
@@ -29,8 +37,11 @@
 				<li><a href="/">Home</a></li>
 				             
 				<li><a href="/blog">Blog</a></li>
-			</ul>
-			</li>
+                <li>
+		        <form action="/search.html" method="get"><input type="text" id="search_box" name="query">
+		        <input class="btn search-btn" type="submit" value="search">
+	            </form>
+                </li>
 			</ul>
 		</nav>
 	</div>
@@ -41,16 +52,10 @@
 	<h1><a href="http://localhost:4000">Cawnpore Chronicles</a></h1>
 </header>
 
-	<main>
-    <div class="search">
-	<form action="/search.html" method="get">
-		<label for="search_box">Search</label>
-		<input type="text" id="search_box" name="query">
-		<input type="submit" value="search">
-	</form>
-    </div>
-		<article>
-			<div class="home">
+    <main>
+
+        <article>
+            <div class="home">
 
   <h1 class="page-heading">Posts</h1>
   
@@ -97,12 +102,16 @@
 
 </div>
 
-		</article>
-	<footer>
+        </article>
+    <footer>
 <p>By <a href="http://cawnporechronicles.com">Cawnpore Chronicles</p>
 
 
-	</main>
+    </main>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
 </body>
 
 </html>
+
