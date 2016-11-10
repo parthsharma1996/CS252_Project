@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "1997 Antaragni winner finally receives prize money"
-date:   2016-10-19 15:12:40 +0530
+title:  "1996 Antaragni winner finally receives prize money"
+date:   2016-10-29 15:11:04 +0530
 categories: Antaragni
-tags: festival antaragni money
+tags: festival antaragni money sample	
 ---
 
 In what can only be described as a first, Mr. Pyan Ral, an Antaragni winner from the batch of 1997 received his promised prize money of ₹300 for winning Mr. Antaragni, on this Thursday evening. Now married, with two children, he says he is delighted that he can now finally fund his children’s college education.
